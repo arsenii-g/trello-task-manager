@@ -1,0 +1,38 @@
+titulo: "Organización de Evento"
+listas:
+  - titulo: "Planificación"
+    esListaCompletadas: false
+    limite: 15
+    tarjetas:
+      - titulo: "Definir fecha y lugar"
+        descripcion: "Reservar venue"
+        tipo: "TAREA"
+        etiquetas: ["Logística"]
+      - titulo: "Lista de invitados"
+        descripcion: "Compilar lista de asistentes"
+        tipo: "TAREA"
+        etiquetas: ["Administrativo"]
+      - titulo: "Presupuesto"
+        descripcion: "Elaborar y aprobar presupuesto"
+        tipo: "CHECKLIST"
+        etiquetas: ["Finanzas"]
+  - titulo: "Preparación"
+    esListaCompletadas: false
+    limite: 10
+    tarjetas:
+      - titulo: "Enviar invitaciones"
+        descripcion: "Email a todos los invitados"
+        tipo: "TAREA"
+        etiquetas: ["Comunicación"]
+      - titulo: "Catering"
+        descripcion: "Confirmar menú y cantidad"
+        tipo: "TAREA"
+        etiquetas: ["Logística"]
+  - titulo: "Día del evento"
+    esListaCompletadas: false
+    limite: 8
+    tarjetas: []
+  - titulo: "Post-evento"
+    esListaCompletadas: true
+    limite: null
+    tarjetas: []

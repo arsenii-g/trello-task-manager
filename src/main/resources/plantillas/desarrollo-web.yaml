@@ -1,0 +1,38 @@
+titulo: "Desarrollo Web - Stack Completo"
+listas:
+  - titulo: "Requisitos"
+    esListaCompletadas: false
+    limite: 12
+    tarjetas:
+      - titulo: "Recolectar especificaciones del cliente"
+        descripcion: "Reunión con stakeholders"
+        tipo: "TAREA"
+        etiquetas: ["Planning"]
+      - titulo: "Crear wireframes"
+        descripcion: "Diseño de interfaces"
+        tipo: "TAREA"
+        etiquetas: ["Design"]
+  - titulo: "Frontend"
+    esListaCompletadas: false
+    limite: 10
+    tarjetas:
+      - titulo: "Configurar React"
+        descripcion: "Setup inicial y estructura de carpetas"
+        tipo: "CHECKLIST"
+        etiquetas: ["React"]
+      - titulo: "Componentes reutilizables"
+        descripcion: "Botones, formularios, modales"
+        tipo: "TAREA"
+        etiquetas: ["React", "UI"]
+  - titulo: "Backend"
+    esListaCompletadas: false
+    limite: 10
+    tarjetas:
+      - titulo: "Diseñar API REST"
+        descripcion: "Endpoints y modelos de datos"
+        tipo: "TAREA"
+        etiquetas: ["API", "Backend"]
+  - titulo: "Completado"
+    esListaCompletadas: true
+    limite: null
+    tarjetas: []

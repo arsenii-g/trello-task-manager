@@ -1,0 +1,30 @@
+titulo: "Planificación de Sprint"
+listas:
+  - titulo: "Backlog"
+    esListaCompletadas: false
+    limite: 20
+    tarjetas:
+      - titulo: "Implementar autenticación"
+        descripcion: "Login y registro de usuarios"
+        tipo: "TAREA"
+        etiquetas: ["Backend", "Seguridad"]
+      - titulo: "Diseñar interfaz de usuario"
+        descripcion: "Mockups y prototipos"
+        tipo: "TAREA"
+        etiquetas: ["Frontend", "UI/UX"]
+      - titulo: "Setup de base de datos"
+        descripcion: "Configurar MySQL y conexiones"
+        tipo: "CHECKLIST"
+        etiquetas: ["DevOps", "Database"]
+  - titulo: "Sprint Actual"
+    esListaCompletadas: false
+    limite: 8
+    tarjetas: []
+  - titulo: "En Revisión"
+    esListaCompletadas: false
+    limite: 5
+    tarjetas: []
+  - titulo: "Finalizado"
+    esListaCompletadas: true
+    limite: null
+    tarjetas: []

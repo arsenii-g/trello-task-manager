@@ -1,0 +1,30 @@
+titulo: "Plantilla de Gestión Personal"
+listas:
+  - titulo: "Tareas Personales"
+    esListaCompletadas: false
+    limite: 15
+    tarjetas:
+      - titulo: "Compras del mes"
+        descripcion: "Hacer la lista de compras"
+        tipo: "CHECKLIST"
+        etiquetas: ["Personal", "Shopping"]
+      - titulo: "Ejercicio"
+        descripcion: "Entrenamientos semanales"
+        tipo: "TAREA"
+        etiquetas: ["Health"]
+  - titulo: "Trabajo"
+    esListaCompletadas: false
+    limite: 10
+    tarjetas:
+      - titulo: "Reunión de equipo"
+        descripcion: "Preparar presentación"
+        tipo: "TAREA"
+        etiquetas: ["Meeting"]
+  - titulo: "En Progreso"
+    esListaCompletadas: false
+    limite: 5
+    tarjetas: []
+  - titulo: "Completadas"
+    esListaCompletadas: true
+    limite: null
+    tarjetas: []

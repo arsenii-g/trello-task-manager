@@ -1,0 +1,22 @@
+titulo: "Tablero Kanban Simple"
+listas:
+  - titulo: "Pendiente"
+    esListaCompletadas: false
+    limite: 10
+    tarjetas:
+      - titulo: "Tarea 1"
+        descripcion: "Descripción de la tarea 1"
+        tipo: "TAREA"
+        etiquetas: ["Importante"]
+      - titulo: "Tarea 2"
+        descripcion: "Descripción de la tarea 2"
+        tipo: "TAREA"
+        etiquetas: ["Normal"]
+  - titulo: "En Progreso"
+    esListaCompletadas: false
+    limite: 5
+    tarjetas: []
+  - titulo: "Completado"
+    esListaCompletadas: true
+    limite: null
+    tarjetas: []

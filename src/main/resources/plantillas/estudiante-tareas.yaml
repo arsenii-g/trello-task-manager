@@ -1,0 +1,30 @@
+titulo: "Organizador de Tareas - Estudiante"
+listas:
+  - titulo: "Asignaturas Actuales"
+    esListaCompletadas: false
+    limite: 15
+    tarjetas:
+      - titulo: "Matemáticas - Examen Parcial"
+        descripcion: "Estudiar temas 1-5"
+        tipo: "CHECKLIST"
+        etiquetas: ["Urgente", "Examen"]
+      - titulo: "Programación - Proyecto Final"
+        descripcion: "Implementar sistema de gestión"
+        tipo: "TAREA"
+        etiquetas: ["Código", "Entrega"]
+      - titulo: "Historia - Trabajo de Investigación"
+        descripcion: "Tema: Revolución Industrial"
+        tipo: "TAREA"
+        etiquetas: ["Investigación"]
+  - titulo: "Por Hacer"
+    esListaCompletadas: false
+    limite: 10
+    tarjetas: []
+  - titulo: "En Progreso"
+    esListaCompletadas: false
+    limite: 5
+    tarjetas: []
+  - titulo: "Entregado"
+    esListaCompletadas: true
+    limite: null
+    tarjetas: []

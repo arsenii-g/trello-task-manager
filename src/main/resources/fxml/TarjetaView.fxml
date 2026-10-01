@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<VBox spacing="15.0" prefWidth="350.0" style="-fx-padding: 20;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.um.pds.trello.infrastructure.javafx.TarjetaDetalleControlador">
+    <Label text="Nueva Tarjeta" style="-fx-font-weight: bold; -fx-font-size: 16;" />
+    
+    <TextField fx:id="txtTituloTarjeta" promptText="Título de la tarjeta..." />
+    
+    <HBox spacing="20.0" alignment="CENTER_LEFT">
+        <Label text="Tipo:" />
+        <RadioButton fx:id="rbTarea" text="Tarea" selected="true" />
+        <RadioButton fx:id="rbChecklist" text="Checklist" />
+    </HBox>
+
+    <HBox spacing="10.0" alignment="CENTER_RIGHT">
+        <Button text="Cancelar" onAction="#handleCerrar" />
+        <Button text="Crear" onAction="#handleGuardar" style="-fx-background-color: #28a745; -fx-text-fill: white;" />
+    </HBox>
+</VBox>

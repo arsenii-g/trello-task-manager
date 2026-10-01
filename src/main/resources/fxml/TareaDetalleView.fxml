@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="15.0" prefWidth="450.0" style="-fx-padding: 20;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.um.pds.trello.infrastructure.javafx.TarjetaDetalleControlador">
+    <TextField fx:id="txtNombre" style="-fx-font-size: 18; -fx-font-weight: bold; -fx-background-color: transparent;" />
+    
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <Label text="En la lista:" />
+        <ComboBox fx:id="comboMoverLista" />
+    </HBox>
+
+	<VBox spacing="5">
+    <Label text="Etiquetas:" style="-fx-font-weight: bold;" />
+    <FlowPane fx:id="panelEtiquetas" hgap="5" vgap="5">
+        </FlowPane>
+    
+    <HBox spacing="5">
+    <TextField fx:id="txtNuevaEtiqueta" promptText="Nueva etiqueta..." HBox.hgrow="ALWAYS" />
+    <ColorPicker fx:id="colorPickerEtiqueta" /> 
+    <Button text="+" onAction="#handleAñadirEtiqueta" />
+	</HBox>
+	</VBox>
+
+    <Separator />
+
+    <VBox spacing="5">
+        <Label text="Descripción:" style="-fx-font-weight: bold;" />
+        <TextArea fx:id="txtAreaTarea" prefHeight="150.0" wrapText="true" />
+    </VBox>
+
+    <Separator />
+
+    <HBox spacing="10.0" alignment="CENTER_RIGHT">
+    <Button text="Eliminar" onAction="#handleEliminarTarjeta" style="-fx-background-color: #dc3545; -fx-text-fill: white;" />
+    
+    <Button text="Completar Tarjeta" onAction="#handleMarcarCompletada" 
+            style="-fx-background-color: #0079bf; -fx-text-fill: white; -fx-font-weight: bold;" />
+            
+    <Region HBox.hgrow="ALWAYS" />
+    <Button text="Guardar Cambios" onAction="#handleGuardar" style="-fx-background-color: #28a745; -fx-text-fill: white;" />
+</HBox>
+</VBox>

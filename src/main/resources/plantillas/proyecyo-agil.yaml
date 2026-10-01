@@ -1,0 +1,30 @@
+titulo: "Plantilla de Proyecto Ágil"
+listas:
+  - titulo: "Por Hacer"
+    esListaCompletadas: false
+    limite: 10
+    tarjetas:
+      - titulo: "Investigar requisitos"
+        descripcion: "Documentar necesidades del cliente"
+        tipo: "TAREA"
+        etiquetas: ["Urgent", "Discovery"]
+      - titulo: "Diseño del sistema"
+        descripcion: "Crear diagramas y arquitectura"
+        tipo: "TAREA"
+        etiquetas: ["Design"]
+      - titulo: "Preparar entorno"
+        descripcion: "Configurar bases de datos y servidores"
+        tipo: "CHECKLIST"
+        etiquetas: ["Setup"]
+  - titulo: "En Progreso"
+    esListaCompletadas: false
+    limite: 5
+    tarjetas: []
+  - titulo: "Revisión"
+    esListaCompletadas: false
+    limite: 3
+    tarjetas: []
+  - titulo: "Hecho"
+    esListaCompletadas: true
+    limite: null
+    tarjetas: []
